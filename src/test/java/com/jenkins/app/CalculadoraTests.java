@@ -18,4 +18,10 @@ public class CalculadoraTests {
 		assertEquals(Calculadora.suma(numero1, numero2), 10, "Ha fallada la suma de números");
 	}
 	
+	@Test
+	@DisplayName("Resta de números")
+	public void resta_test() {
+		int numero1 = 5, numero2 = 5;
+		assertEquals(Calculadora.resta(numero1, numero2), 0, "Ha fallada la resta de números");
+	}
 }
